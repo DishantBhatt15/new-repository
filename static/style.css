@@ -1,0 +1,74 @@
+/* style.css */
+
+/* Body background */
+body {
+    background-image: url('no.jpg'); /* Add your background image URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.display-4 {
+    color: #150101; /* Blue color */
+    font-weight:bolder; /* Make it bold */
+    text-align: center; /* Center align the heading */
+    margin-bottom: 2rem; /* Add some bottom margin for spacing */
+}
+.lead{
+    text-align: center;
+    font-style: italic;
+}
+
+
+/* Custom styles for the jumbotron */
+.jumbotron {
+    background-color: rgba(234, 236, 115, 0.7); /* Semi-transparent white */
+    font-style: italic;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* Custom styles for the container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Custom styles for the textarea */
+textarea {
+    margin-bottom: 1rem;
+    background-color: rgba(103, 190, 32, 0.9); /* Semi-transparent white */
+    border: 1px solid #5ed6cc; /* Light gray border */
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+/* Custom styles for the summary section */
+.summary {
+    margin-top: 2rem;
+    color: #e980e1;
+}
+
+/* Custom styles for the submit button */
+.btn-primary {
+    background-color: #007bff; /* blue */
+    border-color: #007bff; /* blue */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* darker blue on hover */
+    border-color: #b20416; /* darker blue on hover */
+}
+
+/* Custom styles for the summary text */
+.summary-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Custom styles for the text lengths */
+.text-length {
+    font-size: 0.9rem;
+    color: hsl(314, 82%, 37%); /* dark gray */
+}
